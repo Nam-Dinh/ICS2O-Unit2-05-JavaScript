@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Todays work">
+    <meta name="keywords" content="MTHS, website">
+    <meta name="author" content="Nam Dinh">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Todays work</title>
+    <script>
+    function calculateSquare() {
+        let squarelength = document.getElementById("sqlength").value;
+        let squareArea = squarelength*squarelength;
+        alert ("The area of the square is "+ squareArea);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Finding area of a square!</h1>
+  Length: <input type="text" id="sqlength" placeholder="Type in length">
+    <button id="bt1" onclick="calculateSquare()">click to get the area</button>
+  </body>
+</html>
